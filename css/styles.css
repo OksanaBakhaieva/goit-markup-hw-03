@@ -146,18 +146,25 @@ ul {
     background-color:  var(--ocean);
 }
 
+/*Features section*/
+.features-section {
+    padding: 120px 156px;
+    background-color:  var(--white);
+    text-align: left;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-72px)/4);
+}
+
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     overflow: hidden;
     white-space: nowrap;
 }
-
-.section-features {
-    background-color:  var(--white);
-    text-align: left;
-}
-
 .section-features-title {
     color:  var(--navy-blue);
     font-size: 20px;
