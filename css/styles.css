@@ -276,6 +276,10 @@ ul {
     gap: 48px;
 }
 
+.portfolio-item {
+    border: 1px solid cornflower;
+}
+
 .portfolio-section-title {
     color:  var(--navy-blue);
     font-size: 20px;
@@ -297,14 +301,17 @@ ul {
 footer {
     color: var(--cloud);
     background-color:  var(--navy-blue);
+    padding: 100px 0;
 }
 
 .footer-accent {
     color:  var(--cloud);
+    margin-bottom: 16px;
 }
 
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    width: 264px;
 }
