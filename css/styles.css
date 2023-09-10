@@ -282,9 +282,6 @@ img {
     padding: 120px 0;
 }
 
-.container-portfolio-section {
-    padding: 32px 16px;
-}
 .portfolio-section-main-title {
     color:  var(--navy-blue);
     text-align: center;
@@ -308,9 +305,9 @@ img {
 
 .portfolio-item {
     display: block;
+    flex-basis: calc((100% - 48px) / 3);
     margin: 0;
     padding: 0;
-    width: calc((100% - 48px) / 3);
 }
 
 .item {
@@ -318,7 +315,6 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-section-title {
