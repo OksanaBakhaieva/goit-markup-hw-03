@@ -304,14 +304,15 @@ img {
     row-gap: 48px;
     margin: 0;
     padding: 0;
+    
 }
 
 .item {
-    display: block;
+    display: flex;
     border: 1px solid #e7e9fc;
     border-top: none;
     padding: 32px 16px;
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-section-title {
