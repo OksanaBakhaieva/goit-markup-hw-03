@@ -83,7 +83,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     padding-top:24px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     margin-right: 76px;
     }
 
@@ -341,7 +341,6 @@ footer {
 
 .footer-accent {
     color:  var(--cloud);
-    margin-bottom: 16px;
 }
 
 .footer-text {
